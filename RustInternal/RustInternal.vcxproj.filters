@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="SDK\Utils\Dissector\Dissector.cpp" />
+    <ClCompile Include="SDK\Utils\Math\Vector\Vector2.cpp" />
+    <ClCompile Include="SDK\Utils\Math\Vector\Vector3.cpp" />
+    <ClCompile Include="SDK\Utils\Renderer\Renderer.cpp" />
+    <ClCompile Include="SDK\Utils\Renderer\Color\Color.cpp" />
+    <ClCompile Include="Hooks\Hooks.cpp" />
+    <ClCompile Include="Hooks\Methods\MainMenuSystem.cpp" />
+    <ClCompile Include="Hooks\Methods\VisualizeTexelDensity.cpp" />
+    <ClCompile Include="Features\Visuals\Visuals.cpp" />
+    <ClCompile Include="Features\Visuals\Player\PlayerESP.cpp" />
+    <ClCompile Include="Features\Visuals\World\WorldESP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK\Game\SDK.hpp" />
+    <ClInclude Include="SDK\Utils\Dissector\IL2CPP\IL2CPP.hpp" />
+    <ClInclude Include="SDK\Utils\Dissector\Dissector.hpp" />
+    <ClInclude Include="SDK\Cheat.hpp" />
+    <ClInclude Include="SDK\Utils\Math\Vector\Vector2.hpp" />
+    <ClInclude Include="SDK\Utils\Math\Vector\Vector3.hpp" />
+    <ClInclude Include="SDK\Utils\Renderer\Renderer.hpp" />
+    <ClInclude Include="SDK\Utils\Renderer\Color\Color.hpp" />
+    <ClInclude Include="SDK\Game\System.hpp" />
+    <ClInclude Include="Hooks\Hooks.hpp" />
+    <ClInclude Include="SDK\Game\UnityEngine.hpp" />
+    <ClInclude Include="Features\Visuals\Visuals.hpp" />
+  </ItemGroup>
+</Project>
